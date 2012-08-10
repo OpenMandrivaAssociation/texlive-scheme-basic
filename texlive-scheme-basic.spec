@@ -1,13 +1,13 @@
-# revision 17228
+# revision 25923
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-basic
-Version:	20120307
+Version:	20120810
 Release:	1
-Summary:	basic scheme (plain and LaTeX)
+Summary:	basic scheme (plain and latex)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
