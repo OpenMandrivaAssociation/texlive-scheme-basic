@@ -34,3 +34,15 @@ scheme corresponds to collection-basic and collection-latex.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120810-1
++ Revision: 813984
+- Update to latest release.
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120307-1
++ Revision: 783104
+- Import texlive-scheme-basic
+- Import texlive-scheme-basic
+
