@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-scheme-basic
 Version:	20120810
-Release:	6
+Release:	7
 Summary:	basic scheme (plain and latex)
 Group:		Publishing
 URL:		http://tug.org/texlive
