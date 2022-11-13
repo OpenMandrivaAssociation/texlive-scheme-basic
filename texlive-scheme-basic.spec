@@ -1,17 +1,11 @@
-# revision 25923
-# category Scheme
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-scheme-basic
-Version:	20190228
+Version:	54191
 Release:	1
 Summary:	basic scheme (plain and latex)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-basic.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-basic.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,20 +23,8 @@ scheme corresponds to collection-basic and collection-latex.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120810-1
-+ Revision: 813984
-- Update to latest release.
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120307-1
-+ Revision: 783104
-- Import texlive-scheme-basic
-- Import texlive-scheme-basic
-
