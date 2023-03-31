@@ -1,6 +1,6 @@
 Name:		texlive-scheme-basic
 Version:	54191
-Release:	1
+Release:	2
 Summary:	basic scheme (plain and latex)
 Group:		Publishing
 URL:		http://tug.org/texlive
