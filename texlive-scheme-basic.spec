@@ -1,30 +1,23 @@
-Name:		texlive-scheme-basic
-Version:	54191
-Release:	2
+%global tl_name scheme-basic
+%global tl_revision 54191
+
+Name:		texlive-%{tl_name}
+Version:	%{tl_revision}
+Release:	1
 Summary:	basic scheme (plain and latex)
 Group:		Publishing
-URL:		https://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-basic.r%{version}.tar.xz
+URL:		https://www.ctan.org/pkg/scheme-basic
+License:	LPPL
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-basic.r%{tl_revision}.tar.xz
 BuildArch:	noarch
-BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires:	texlive-collection-basic
-Requires:	texlive-collection-latex
+BuildSystem:	texlive
+Requires:	texlive(collection-basic)
+Requires:	texlive(collection-latex)
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-This is the basic TeX Live scheme: it is a small set of files
-sufficient to typeset plain TeX or LaTeX documents in
-PostScript or PDF, using the Computer Modern fonts.  This
-scheme corresponds to collection-basic and collection-latex.
+This is the basic TeX Live scheme: it is a small set of files sufficient
+to typeset plain TeX or LaTeX documents in PostScript or PDF, using the
+Computer Modern fonts. This scheme corresponds to collection-basic and
+collection-latex.
 
-#-----------------------------------------------------------------------
-%files
-
-#-----------------------------------------------------------------------
-%prep
-%autosetup -p1 -c
-
-%build
-
-%install
